@@ -1,0 +1,1102 @@
+[
+  {
+    "name": "MEKR-10",
+    "subjects": [
+      {
+        "text": "Mikroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Makroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Iqtisodiyotda optimallashtirish texnikalari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MTXT-10",
+    "subjects": [
+      {
+        "text": "Barqaror turizm rivojlanishi",
+        "credit": 7.5
+      },
+      {
+        "text": "Raqobat strategiyasi",
+        "credit": 7.5
+      },
+      {
+        "text": "Strategik brend boshqaruvi",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MTIF-10",
+    "subjects": [
+      {
+        "text": "Xalqaro savdo huquqi va savdo amaliyoti",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznes analitika",
+        "credit": 7.5
+      },
+      {
+        "text": "Moliyaviy derivativlar va risklarni boshqarish",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MST-10",
+    "subjects": [
+      {
+        "text": "Mikroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Statistika asoslari",
+        "credit": 7.5
+      },
+      {
+        "text": "Amaliy statistika",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MSS-10",
+    "subjects": [
+      {
+        "text": "Qiyosiy soliq tortish",
+        "credit": 7.5
+      },
+      {
+        "text": "Xalqaro soliq prinsiplari",
+        "credit": 7.5
+      },
+      {
+        "text": "Xalqaro menejerlar uchun buxgalteriya hisobi",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MKD-10",
+    "subjects": [
+      {
+        "text": "Merchendayzing",
+        "credit": 7.5
+      },
+      {
+        "text": "Savdo menejmenti",
+        "credit": 7.5
+      },
+      {
+        "text": "Xizmatlar marketingi",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MPT-10",
+    "subjects": [
+      {
+        "text": "Ta'lim siyosati",
+        "credit": 7.5
+      },
+      {
+        "text": "Iqtisodiy psixologiya",
+        "credit": 7.5
+      },
+      {
+        "text": "Inson resurslarini rivojlantirish va liderlik",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MMKB-10",
+    "subjects": [
+      {
+        "text": "Birlashish va qo‘shib olish",
+        "credit": 7.5
+      },
+      {
+        "text": "Xulq-atvor iqtisodiyoti va davlat siyosati",
+        "credit": 7.5
+      },
+      {
+        "text": "Tarmoqlar sohasini tartibga solish va raqobat",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MRE-10",
+    "subjects": [
+      {
+        "text": "Mahalliy va mintaqaviy rivojlanish iqtisodiyoti",
+        "credit": 7.5
+      },
+      {
+        "text": "Muvozanat tahlili asoslari",
+        "credit": 7.5
+      },
+      {
+        "text": "Makroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MMNP-10",
+    "subjects": [
+      {
+        "text": "Boshqaruv nazariyasi",
+        "credit": 7.5
+      },
+      {
+        "text": "Menejmentning tadkikot usullari",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznes ijrosi va strategiya",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MMRT-10",
+    "subjects": [
+      {
+        "text": "Marketingni boshqarish",
+        "credit": 7.5
+      },
+      {
+        "text": "Ekonometrika-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Savdo menejmenti",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MME-10",
+    "subjects": [
+      {
+        "text": "Makroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Muvozanat tahlili asoslari",
+        "credit": 7.5
+      },
+      {
+        "text": "Fiskal siyosat",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MME-11",
+    "subjects": [
+      {
+        "text": "Makroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Muvozanat tahlili asoslari",
+        "credit": 7.5
+      },
+      {
+        "text": "Fiskal siyosat",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MML-10",
+    "subjects": [
+      {
+        "text": "Logistik tizimlarni modellashtirish",
+        "credit": 7.5
+      },
+      {
+        "text": "Ta'minot jarayonini boshkarish",
+        "credit": 7.5
+      },
+      {
+        "text": "Ta'minot zanjiri va korxonalar manbalarini boshqarish",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MKF-10",
+    "subjects": [
+      {
+        "text": "Moliyaviy bozorlar",
+        "credit": 7.5
+      },
+      {
+        "text": "Qimmatli qog‘ozlar, fyucherslar va opsionlar",
+        "credit": 7.5
+      },
+      {
+        "text": "Korporativ moliya va investisiya banki",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MKB-10",
+    "subjects": [
+      {
+        "text": "Korporativ boshqaruv",
+        "credit": 7.5
+      },
+      {
+        "text": "Buxgalteriya, tashkilotlar va jamiyat",
+        "credit": 7.5
+      },
+      {
+        "text": "Moliyaviy hisobot muammolari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MRB-10",
+    "subjects": [
+      {
+        "text": "Inson resurslarini strategik boshqarish",
+        "credit": 7.5
+      },
+      {
+        "text": "Inson kapitali tahlili",
+        "credit": 7.5
+      },
+      {
+        "text": "Liderlik va tashkiliy kommunikasiya",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MIB-10",
+    "subjects": [
+      {
+        "text": "Moliya asoslari: moliya va investisiyalar",
+        "credit": 7.5
+      },
+      {
+        "text": "Qat'iy daromadli investisiyalar",
+        "credit": 7.5
+      },
+      {
+        "text": "Korporativ moliya",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MIH-10",
+    "subjects": [
+      {
+        "text": "Zamonaviy xavfsizlik tadqiqotlari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ekonometrika-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Global iqtisodiy xavfsizlik",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MIN-10",
+    "subjects": [
+      {
+        "text": "Iqtisodiyot nazariyasida munozaralar",
+        "credit": 7.5
+      },
+      {
+        "text": "Davlat iqtisodiyoti va siyosati",
+        "credit": 7.5
+      },
+      {
+        "text": "Xalqaro raqobat siyosati",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MIIT-10",
+    "subjects": [
+      {
+        "text": "Global strategiya, boshqaruv va axborot tizimlari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ma'lumotlar bazasi tizimini yaratish",
+        "credit": 7.5
+      },
+      {
+        "text": "Tarmoq operatsiyalari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MEKP-10",
+    "subjects": [
+      {
+        "text": "Mikroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Ekonometrika-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznesni tadqiq etish usullari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MEKP-11",
+    "subjects": [
+      {
+        "text": "Mikroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Ekonometrika-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznesni tadqiq etish usullari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MEKP-12",
+    "subjects": [
+      {
+        "text": "Mikroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Ekonometrika-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznesni tadqiq etish usullari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MEKP-13",
+    "subjects": [
+      {
+        "text": "Mikroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Ekonometrika-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznesni tadqiq etish usullari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MXI-10",
+    "subjects": [
+      {
+        "text": "Xalqaro iqtisodiyot",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznes analitika",
+        "credit": 7.5
+      },
+      {
+        "text": "Jahon iqtisodiyoti va globallashuv",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MGF-10",
+    "subjects": [
+      {
+        "text": "Xususiylashtirish va davlat-xususiy sheriklik",
+        "credit": 7.5
+      },
+      {
+        "text": "Davlat moliyaviy menejmenti: daromad",
+        "credit": 7.5
+      },
+      {
+        "text": "Davlat moliyaviy menejmenti: rejalashtirish va samaradorik",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MGF-11",
+    "subjects": [
+      {
+        "text": "Xususiylashtirish va davlat-xususiy sheriklik",
+        "credit": 7.5
+      },
+      {
+        "text": "Davlat moliyaviy menejmenti: daromad",
+        "credit": 7.5
+      },
+      {
+        "text": "Davlat moliyaviy menejmenti: rejalashtirish va samaradorik",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MBR-10",
+    "subjects": [
+      {
+        "text": "Boshqaruv hisobi - 2",
+        "credit": 7.5
+      },
+      {
+        "text": "Ishonchlilik va ishonchli korporativ hisobotlar",
+        "credit": 7.5
+      },
+      {
+        "text": "Korporativ moliyaviy hisobot",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MTD-10",
+    "subjects": [
+      {
+        "text": "Bojxona islohoti va modernizasiya",
+        "credit": 7.5
+      },
+      {
+        "text": "Xalqaro bojxona huquqi",
+        "credit": 7.5
+      },
+      {
+        "text": "Bojxona ishi",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MBA-10",
+    "subjects": [
+      {
+        "text": "Xalqaro biznes menejmenti",
+        "credit": 7.5
+      },
+      {
+        "text": "Korxona iktisodiyoti",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznes rejalashtirish",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MBDA-10",
+    "subjects": [
+      {
+        "text": "Xalqaro bank ishi va moliya",
+        "credit": 7.5
+      },
+      {
+        "text": "Amaliy ekonometrika",
+        "credit": 7.5
+      },
+      {
+        "text": "Korporativ moliya",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MUA-10",
+    "subjects": [
+      {
+        "text": "Audit nazariyasi va amaliyoti",
+        "credit": 7.5
+      },
+      {
+        "text": "Amaliy ichki audit",
+        "credit": 7.5
+      },
+      {
+        "text": "Audit va tegishli xizmatlar",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MEKR-31",
+    "subjects": [
+      {
+        "text": "Mikroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Makroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Iqtisodiyotda optimallashtirish texnikalari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MKD-31",
+    "subjects": [
+      {
+        "text": "Merchendayzing",
+        "credit": 7.5
+      },
+      {
+        "text": "Savdo menejmenti",
+        "credit": 7.5
+      },
+      {
+        "text": "Xizmatlar marketingi",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MMNP-31",
+    "subjects": [
+      {
+        "text": "Boshqaruv nazariyasi",
+        "credit": 7.5
+      },
+      {
+        "text": "Menejmentning tadkikot usullari",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznes ijrosi va strategiya",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MMRT-31",
+    "subjects": [
+      {
+        "text": "Marketingni boshqarish",
+        "credit": 7.5
+      },
+      {
+        "text": "Ekonometrika-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Savdo menejmenti",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MME-31",
+    "subjects": [
+      {
+        "text": "Makroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Muvozanat tahlili asoslari",
+        "credit": 7.5
+      },
+      {
+        "text": "Fiskal siyosat",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MRB-31",
+    "subjects": [
+      {
+        "text": "Inson resurslarini boshqarish",
+        "credit": 7.5
+      },
+      {
+        "text": "Inson kapitali tahlili",
+        "credit": 7.5
+      },
+      {
+        "text": "Liderlik va tashkiliy kommunikasiya",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MIIT-31",
+    "subjects": [
+      {
+        "text": "Global strategiya, boshqaruv va axborot tizimlari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ma'lumotlar bazasi tizimini yaratish",
+        "credit": 7.5
+      },
+      {
+        "text": "Tarmoq operatsiyalari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MEKP-31",
+    "subjects": [
+      {
+        "text": "Mikroiqtisodiyot-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Ekonometrika-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Biznesni tadqiq etish usullari",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MGF-31",
+    "subjects": [
+      {
+        "text": "Xususiylashtirish va davlat-xususiy sheriklik",
+        "credit": 7.5
+      },
+      {
+        "text": "Davlat moliyaviy menejmenti: daromad",
+        "credit": 7.5
+      },
+      {
+        "text": "Davlat moliyaviy menejmenti: rejalashtirish va samaradorik",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MBR-31",
+    "subjects": [
+      {
+        "text": "Boshqaruv hisobi-2",
+        "credit": 7.5
+      },
+      {
+        "text": "Ishonchlilik va ishonchli korporativ hisobotlar",
+        "credit": 7.5
+      },
+      {
+        "text": "Korporativ moliyaviy hisobot",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  },
+  {
+    "name": "MBDA-31",
+    "subjects": [
+      {
+        "text": "Xalqaro bank ishi va moliya",
+        "credit": 7.5
+      },
+      {
+        "text": "Amaliy ekonometrika",
+        "credit": 7.5
+      },
+      {
+        "text": "Korporativ moliya",
+        "credit": 7.5
+      },
+      {
+        "text": "Ilmiy tadqiqot metodologiyasi",
+        "credit": 4.0
+      },
+      {
+        "text": "Maxsus fanlarni o‘qitish metodikasi",
+        "credit": 3.5
+      }
+    ]
+  }
+]
