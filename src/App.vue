@@ -2,7 +2,7 @@
   <div class="bg-gray-200">
     <div class="flex flex-col justify-center h-screen md:items-center">
       <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-        <div class="w-1/2 mx-auto lg:w-1/4">
+        <div class="w-1/2 mx-auto mb-2 lg:mb-6 lg:w-1/4">
           <img class="" src="./assets/logo.webp" alt="" />
         </div>
         <div
