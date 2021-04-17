@@ -1,9 +1,12 @@
 <template>
-  <div class="overflow-x-auto bg-gray-200">
+  <div class="bg-gray-200">
     <div class="flex flex-col justify-center h-screen md:items-center">
       <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+        <div class="w-1/2 mx-auto lg:w-1/4">
+          <img class="" src="./assets/logo.webp" alt="" />
+        </div>
         <div
-          class="inline-block py-2 mx-auto align-middle min-w-1/3 sm:px-6 lg:px-8"
+          class="inline-block px-6 py-2 mx-auto align-middle min-w-1/3 lg:px-8"
         >
           <div>
             <label
@@ -35,7 +38,7 @@
                   class="overflow-hidden border-b border-gray-200 shadow sm:rounded-lg"
                 >
                   <table class="min-w-full divide-y divide-gray-200">
-                    <thead class="bg-gray-50">
+                    <thead class="bg-gray-100">
                       <tr>
                         <th scope="col" class="theader">#</th>
                         <th scope="col" class="theader">Fanlar nomi</th>
@@ -57,12 +60,10 @@
                       />
                     </tbody>
                   </table>
-                  <div
-                    class="flex items-center justify-end w-full py-2 bg-indigo-200"
-                  >
-                    <div class="tdata">
+                  <div class="flex items-center justify-end py-2 bg-gray-700">
+                    <div class="text-white tdata">
                       Sizning GPA:
-                      <span class="font-bold text-red-700">{{
+                      <span class="ml-2 text-xl font-bold text-red-400">{{
                         (gpa / 30).toFixed(2)
                       }}</span>
                     </div>
