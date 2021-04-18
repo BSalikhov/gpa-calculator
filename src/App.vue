@@ -18,7 +18,7 @@
               v-model="selectedGroup"
               id="location"
               name="location"
-              class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
             >
               <option
                 v-for="(group, $groupIndex) in groupList"
@@ -40,12 +40,16 @@
                   <table class="min-w-full divide-y divide-gray-200">
                     <thead class="bg-gray-100">
                       <tr>
-                        <th scope="col" class="theader">#</th>
-                        <th scope="col" class="theader">Fanlar nomi</th>
-                        <th scope="col" class="theader">
+                        <th scope="col" class="text-blue-800 theader">#</th>
+                        <th scope="col" class="text-blue-800 theader">
+                          Fanlar nomi
+                        </th>
+                        <th scope="col" class="text-blue-800 theader">
                           Fanga ajratilgan kredit miqdori
                         </th>
-                        <th scope="col" class="theader">Fandan olingan baho</th>
+                        <th scope="col" class="text-blue-800 theader">
+                          Fandan olingan baho
+                        </th>
                       </tr>
                     </thead>
                     <tbody>
@@ -60,7 +64,7 @@
                       />
                     </tbody>
                   </table>
-                  <div class="flex items-center justify-end py-2 bg-gray-700">
+                  <div class="flex items-center justify-end py-2 bg-blue-800">
                     <div class="text-white tdata">
                       Sizning GPA:
                       <span class="ml-2 text-xl font-bold text-red-400">{{
