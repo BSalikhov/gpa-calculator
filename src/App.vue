@@ -67,9 +67,10 @@
                   <div
                     :class="{
                       'bg-green-600': gpa >= 2.7,
-                      'bg-red-500': gpa < 2.7 && gpa > 0,
+                      'bg-red-500': gpa < 2.7,
+                      'bg-blue-800': gpa == 0,
                     }"
-                    class="flex items-center justify-end py-2 bg-blue-800"
+                    class="flex items-center justify-end py-2"
                   >
                     <div class="text-white tdata">
                       Sizning GPA:
