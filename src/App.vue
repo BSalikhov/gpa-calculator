@@ -64,12 +64,17 @@
                       />
                     </tbody>
                   </table>
-                  <div class="flex items-center justify-end py-2 bg-blue-800">
+                  <div
+                    :class="{
+                      'bg-green-600': gpa >= 4,
+                      'bg-blue-800': gpa >= 3 && gpa < 4,
+                      'bg-red-500': gpa < 3 && gpa > 0,
+                    }"
+                    class="flex items-center justify-end py-2 bg-gray-400"
+                  >
                     <div class="text-white tdata">
                       Sizning GPA:
-                      <span class="ml-2 text-xl font-bold text-red-400">{{
-                        (gpa / 30).toFixed(2)
-                      }}</span>
+                      <span class="ml-2 text-xl font-bold">{{ gpa }}</span>
                     </div>
                   </div>
                 </div>
@@ -99,11 +104,14 @@ export default {
   },
 
   computed: {
-    gpa() {
+    credit() {
       return Object.values(this.totalCredits).reduce(
         (prev, curr) => prev + curr,
         0
       );
+    },
+    gpa() {
+      return (this.credit / 30).toFixed(2);
     },
   },
 };
