@@ -45,7 +45,7 @@
                           Fanlar nomi
                         </th>
                         <th scope="col" class="text-blue-800 theader">
-                          Fanga ajratilgan kredit miqdori
+                          Kredit miqdori
                         </th>
                         <th scope="col" class="text-blue-800 theader">
                           Fandan olingan baho
@@ -66,11 +66,10 @@
                   </table>
                   <div
                     :class="{
-                      'bg-green-600': gpa >= 4,
-                      'bg-blue-800': gpa >= 3 && gpa < 4,
-                      'bg-red-500': gpa < 3 && gpa > 0,
+                      'bg-green-600': gpa >= 2.7,
+                      'bg-red-500': gpa < 2.7 && gpa > 0,
                     }"
-                    class="flex items-center justify-end py-2 bg-gray-400"
+                    class="flex items-center justify-end py-2 bg-blue-800"
                   >
                     <div class="text-white tdata">
                       Sizning GPA:
