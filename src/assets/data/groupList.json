@@ -1,4 +1,5 @@
 [
+  [
   {
     "name": "MEKR-10",
     "subjects": [
@@ -1099,4 +1100,973 @@
       }
     ]
   }
+],
+[
+  {
+     "name":"MMRT-10",
+     "subjects":[
+        {
+           "text":"Reklama menejmenti",
+           "credit":7.5
+        },
+        {
+           "text":"B2B marketing",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro biznes strategiya",
+           "credit":7.5
+        },
+        {
+           "text":"Xizmatlar marketingi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MTIF-10",
+     "subjects":[
+        {
+           "text":"Xalqaro biznes shartnomalar",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro logistika",
+           "credit":7.5
+        },
+        {
+           "text":"Raqamli biznesni boshqarish",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro korporativ moliya",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MTIF-11",
+     "subjects":[
+        {
+           "text":"Xalqaro biznes shartnomalar",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro logistika",
+           "credit":7.5
+        },
+        {
+           "text":"Raqamli biznesni boshqarish",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro korporativ moliya",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MMNP-10",
+     "subjects":[
+        {
+           "text":"Barqarorlik va ijtimoiy ma‘suliyat",
+           "credit":7.5
+        },
+        {
+           "text":"Taqqoslama menejment",
+           "credit":7.5
+        },
+        {
+           "text":"Boshqaruv tafakkuri tarixi",
+           "credit":7.5
+        },
+        {
+           "text":"Strategik boshqaruv",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MMKB-10",
+     "subjects":[
+        {
+           "text":"Korporativ boshqaruv va qoidalar",
+           "credit":7.5
+        },
+        {
+           "text":"Raqobat qonunlari va iqtisodiyot: xozirgi muammolar",
+           "credit":7.5
+        },
+        {
+           "text":"Yangi strategiya va raqobatdoshlik: firmalar, klasterlar va iqtisodiy rivojlanish",
+           "credit":7.5
+        },
+        {
+           "text":"Raqobat va bozor ustuvorligi qonuni va iqtisodiyoti",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MKB-10",
+     "subjects":[
+        {
+           "text":"Global biznes muxit",
+           "credit":7.5
+        },
+        {
+           "text":"Korporativ moliya",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro korporativ boshqaruv",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy investitsiyalar va korporativ risklar tahlili",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MTXT-10",
+     "subjects":[
+        {
+           "text":"Turizmda atrof-muhit iqtisodiyoti",
+           "credit":7.5
+        },
+        {
+           "text":"Turizm siyosati",
+           "credit":7.5
+        },
+        {
+           "text":"Turizmda atrof-muhit boshqaruvi",
+           "credit":7.5
+        },
+        {
+           "text":"Narxlar va marketing byudjeti",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MIB-10",
+     "subjects":[
+        {
+           "text":"Investitsiyalarni boshqarish",
+           "credit":7.5
+        },
+        {
+           "text":"Derivativ moliyaviy instrumentlar",
+           "credit":7.5
+        },
+        {
+           "text":"Kapital investisiya tahlili",
+           "credit":7.5
+        },
+        {
+           "text":"Risklarni boshqarish",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MKF-10",
+     "subjects":[
+        {
+           "text":"Makroiqtisodiy siyosat va moliyaviy bozorlar",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy xavfsizlik",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy tahlil-2",
+           "credit":7.5
+        },
+        {
+           "text":"XVJ iqtisodiy siyosat",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MGF-10",
+     "subjects":[
+        {
+           "text":"Makroiqtisodiy siyosat va moliyaviy bozorlar",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy xavfsizlik",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy tahlil-2",
+           "credit":7.5
+        },
+        {
+           "text":"XVJ iqtisodiy siyosat",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MGF-11",
+     "subjects":[
+        {
+           "text":"Makroiqtisodiy siyosat va moliyaviy bozorlar",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy xavfsizlik",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy tahlil-2",
+           "credit":7.5
+        },
+        {
+           "text":"XVJ iqtisodiy siyosat",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MEKP-10",
+     "subjects":[
+        {
+           "text":"Industrial tashkilotlar",
+           "credit":7.5
+        },
+        {
+           "text":"Korporativ strategiya va tashkiliy dizayn",
+           "credit":7.5
+        },
+        {
+           "text":"Iqtisodiy o‘sish",
+           "credit":7.5
+        },
+        {
+           "text":"Raqobat strategiyasi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MEKP-11",
+     "subjects":[
+        {
+           "text":"Industrial tashkilotlar",
+           "credit":7.5
+        },
+        {
+           "text":"Korporativ strategiya va tashkiliy dizayn",
+           "credit":7.5
+        },
+        {
+           "text":"Iqtisodiy o‘sish",
+           "credit":7.5
+        },
+        {
+           "text":"Raqobat strategiyasi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MEKP-12",
+     "subjects":[
+        {
+           "text":"Industrial tashkilotlar",
+           "credit":7.5
+        },
+        {
+           "text":"Korporativ strategiya va tashkiliy dizayn",
+           "credit":7.5
+        },
+        {
+           "text":"Iqtisodiy o‘sish",
+           "credit":7.5
+        },
+        {
+           "text":"Raqobat strategiyasi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MEKP-13",
+     "subjects":[
+        {
+           "text":"Industrial tashkilotlar",
+           "credit":7.5
+        },
+        {
+           "text":"Korporativ strategiya va tashkiliy dizayn",
+           "credit":7.5
+        },
+        {
+           "text":"Iqtisodiy o‘sish",
+           "credit":7.5
+        },
+        {
+           "text":"Raqobat strategiyasi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MEKR-10",
+     "subjects":[
+        {
+           "text":"Miqdoriy tadqiqot texnikalari",
+           "credit":7.5
+        },
+        {
+           "text":"Ekonometrika-2",
+           "credit":7.5
+        },
+        {
+           "text":"Amaliy ekonometrika",
+           "credit":7.5
+        },
+        {
+           "text":"Bank va moliyaviy texnologiya",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MPT-10",
+     "subjects":[
+        {
+           "text":"Ta‘lim va o‘rganish nazariyasi",
+           "credit":7.5
+        },
+        {
+           "text":"Ekonometrika-2",
+           "credit":7.5
+        },
+        {
+           "text":"Ta‘lim iqtisodiyoti",
+           "credit":7.5
+        },
+        {
+           "text":"Ta‘lim jarayonlarini loyixalashtrish va baholash nazariyalari",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MIN-10",
+     "subjects":[
+        {
+           "text":"Iqtisodiyot taraqqiyot jadallashuvi",
+           "credit":7.5
+        },
+        {
+           "text":"Global iqtisodiy rivojlanish",
+           "credit":7.5
+        },
+        {
+           "text":"Empirik iqtisodiyot",
+           "credit":7.5
+        },
+        {
+           "text":"Monetar nazariya va siyosat",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MBA-10",
+     "subjects":[
+        {
+           "text":"Xalqaro tadbirkorlik ",
+           "credit":7.5
+        },
+        {
+           "text":"Korporativ strategiya va tashkiliy dizayn",
+           "credit":7.5
+        },
+        {
+           "text":"Biznes strategiyasi",
+           "credit":7.5
+        },
+        {
+           "text":"Investitsiya",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MST-10",
+     "subjects":[
+        {
+           "text":"Statistik taxlil",
+           "credit":7.5
+        },
+        {
+           "text":"Biznes statistikasi",
+           "credit":7.5
+        },
+        {
+           "text":"Moliya statistikasi",
+           "credit":7.5
+        },
+        {
+           "text":"Makroiqtisodiyot-2",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MBDA-10",
+     "subjects":[
+        {
+           "text":"Banklarda moliyaviy xisob",
+           "credit":7.5
+        },
+        {
+           "text":"Derivativ moliyaviy instrumentlar",
+           "credit":7.5
+        },
+        {
+           "text":"Bank va moliyaviy texnologiya",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro investitsiya",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MIIT-10",
+     "subjects":[
+        {
+           "text":"Axborot texnologiyalari va servis innovatsiyasi",
+           "credit":7.5
+        },
+        {
+           "text":"Biznesni raqamli boshqarish",
+           "credit":7.5
+        },
+        {
+           "text":"AKT iqtisodiyoti va siyosati",
+           "credit":7.5
+        },
+        {
+           "text":"Global manbalari,biznes va AT xizmatlarini boshqarish",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MME-10",
+     "subjects":[
+        {
+           "text":"Monetar nazariya va siyosat",
+           "credit":7.5
+        },
+        {
+           "text":"Makroiqtisodiy siyosat",
+           "credit":7.5
+        },
+        {
+           "text":"Empirik makroiqtisodiyot",
+           "credit":7.5
+        },
+        {
+           "text":"Inklyuziv o‘sish",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MME-11",
+     "subjects":[
+        {
+           "text":"Monetar nazariya va siyosat",
+           "credit":7.5
+        },
+        {
+           "text":"Makroiqtisodiy siyosat",
+           "credit":7.5
+        },
+        {
+           "text":"Empirik makroiqtisodiyot",
+           "credit":7.5
+        },
+        {
+           "text":"Inklyuziv o‘sish",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MUA-10",
+     "subjects":[
+        {
+           "text":"Ichki audit",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy xavfsizlik",
+           "credit":7.5
+        },
+        {
+           "text":"Audit va ishonchlilik-2",
+           "credit":7.5
+        },
+        {
+           "text":"Zamonaviy boshqaruv xisobi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MUA-11",
+     "subjects":[
+        {
+           "text":"Ichki audit",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy xavfsizlik",
+           "credit":7.5
+        },
+        {
+           "text":"Audit va ishonchlilik-2",
+           "credit":7.5
+        },
+        {
+           "text":"Zamonaviy boshqaruv xisobi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MBR-10",
+     "subjects":[
+        {
+           "text":"Moliyaviy xisobot taxlili",
+           "credit":7.5
+        },
+        {
+           "text":"Buxgalteriya xisobi xalqaro amaliyoti va boshqaruvi",
+           "credit":7.5
+        },
+        {
+           "text":"Bozorga asoslangan buxgalteriya tadqiqotlari elementlari",
+           "credit":7.5
+        },
+        {
+           "text":"Buxgalteriya tashkilotlar va jamiyat",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MSS-10",
+     "subjects":[
+        {
+           "text":"Soliq isloxati va taraqqiyoti",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro soliq-2",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy menejment asoslari",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy xavfsizlik",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MKD-10",
+     "subjects":[
+        {
+           "text":"Xalqaro savdo",
+           "credit":7.5
+        },
+        {
+           "text":"Strategik brendni boshqarish",
+           "credit":7.5
+        },
+        {
+           "text":"B2B marketing",
+           "credit":7.5
+        },
+        {
+           "text":"Taminot zanjirlari boshqaruvi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MML-10",
+     "subjects":[
+        {
+           "text":"Logistikani strategik boshqarish",
+           "credit":7.5
+        },
+        {
+           "text":"Boshqaruv xisobi-2",
+           "credit":7.5
+        },
+        {
+           "text":"Innovatsion logistika",
+           "credit":7.5
+        },
+        {
+           "text":"Iqtisodiy integratsiya",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MIH-10",
+     "subjects":[
+        {
+           "text":"Risklarni boshqarish (menejmenti)",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy xavfsizlik",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy taxlil-2",
+           "credit":7.5
+        },
+        {
+           "text":"Davlatning iqtisodiy xavfsizligi",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MRE-10",
+     "subjects":[
+        {
+           "text":"Urbanizatsiya iqtisodiyoti",
+           "credit":7.5
+        },
+        {
+           "text":"Mintaqaviy va munisipal rejalashtrish iqtisodiyoti",
+           "credit":7.5
+        },
+        {
+           "text":"Maxalliy saloxiyat va iqtisodiy rivojlanish siyosati",
+           "credit":7.5
+        },
+        {
+           "text":"Inklyuziv o‘sish",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MXI-10",
+     "subjects":[
+        {
+           "text":"Xalqaro bozor konyukturasi taxlili",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro transport koridorlari",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro moliyaviy bozorlar",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro biznes shartnomalari",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MTD-10",
+     "subjects":[
+        {
+           "text":"Tashqi iqtisodiy faoliyatida bojxonaning o‘rni",
+           "credit":7.5
+        },
+        {
+           "text":"Bojxona tamoillari",
+           "credit":7.5
+        },
+        {
+           "text":"Bojxona mamuriyatchiligi nazariyasi va amaliyoti",
+           "credit":7.5
+        },
+        {
+           "text":"Bojxona boshqaruvi nazariyasi va amaliyoti",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MRB-10",
+     "subjects":[
+        {
+           "text":"Axoli  o‘zgarishlarini tushunish",
+           "credit":7.5
+        },
+        {
+           "text":"Demografik metod",
+           "credit":7.5
+        },
+        {
+           "text":"Davlat boshqaruvida inson resurslari",
+           "credit":7.5
+        },
+        {
+           "text":"Axoli va reproduktiv salomatlik",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MBDA-31",
+     "subjects":[
+        {
+           "text":"Banklarda moliyaviy xisob (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Derivativ moliyaviy instrumentlar (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Bank va moliyaviy texnologiya (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro investitsiya (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MEKP-31",
+     "subjects":[
+        {
+           "text":"Industrial tashkilotlar (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Korporativ strategiya va tashkiliy dizayn (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Iqtisodiy o‘sish (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Raqobat strategiyasi (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MEKR-31",
+     "subjects":[
+        {
+           "text":"Miqdoriy tadqiqot texnikalari (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Ekonometrika-2 (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Amaliy ekonometrika (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Bank va moliyaviy texnologiya (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MGF-31",
+     "subjects":[
+        {
+           "text":"Makroiqtisodiy siyosat va moliyaviy bozorlar (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy xavfsizlik (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Moliyaviy tahlil-2 (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"XVJ iqtisodiy siyosat (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MIIT-31",
+     "subjects":[
+        {
+           "text":"Axborot texnologiyalari va servis innovatsiyasi (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Biznesni raqamli boshqarish (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"AKT iqtisodiyoti va siyosati (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Global manbalari,biznes va AT xizmatlarini boshqarish (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MKD-31",
+     "subjects":[
+        {
+           "text":"Xalqaro savdo (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Strategik brendni boshqarish (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"B2B marketing (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Taminot zanjirlari boshqaruvi (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MME-31",
+     "subjects":[
+        {
+           "text":"Monetar nazariya va siyosat (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Makroiqtisodiy siyosat (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Empirik makroiqtisodiyot (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Inklyuziv o‘sish (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MMNP-31",
+     "subjects":[
+        {
+           "text":"Barqarorlik va ijtimoiy ma‘suliyat (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Taqqoslama menejment (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Boshqaruv tafakkuri tarixi (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Strategik boshqaruv (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MMRT-31",
+     "subjects":[
+        {
+           "text":"Reklama menejmenti (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"B2B marketing (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Xalqaro biznes strategiya (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Xizmatlar marketingi (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MRB-31",
+     "subjects":[
+        {
+           "text":"Axoli  o‘zgarishlarini tushunish (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Demografik metod (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Davlat boshqaruvida inson resurslari (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Axoli va reproduktiv salomatlik (rus)",
+           "credit":7.5
+        }
+     ]
+  },
+  {
+     "name":"MBR-31",
+     "subjects":[
+        {
+           "text":"Moliyaviy xisobot taxlili (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Buxgalteriya xisobi xalqaro amaliyoti va boshqaruvi (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Bozorga asoslangan buxgalteriya tadqiqotlari elementlari (rus)",
+           "credit":7.5
+        },
+        {
+           "text":"Buxgalteriya tashkilotlar va jamiyat (rus)",
+           "credit":7.5
+        }
+     ]
+  }
+]
 ]

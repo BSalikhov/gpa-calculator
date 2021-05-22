@@ -2,32 +2,54 @@
   <div class="bg-gray-200">
     <div class="flex flex-col justify-center h-screen md:items-center">
       <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-        <div class="w-1/2 mx-auto mb-2 lg:mb-6 lg:w-1/4">
+        <div class="w-1/3 mx-auto mt-2 lg:mb-6 lg:w-1/4">
           <img class="" src="./assets/logo.webp" alt="" />
         </div>
         <div
-          class="inline-block px-6 py-2 mx-auto align-middle min-w-1/3 lg:px-8"
+          class="inline-block px-2 py-2 mx-auto align-middle min-w-1/3 lg:px-8"
         >
-          <div>
-            <label
-              for="location"
-              class="block text-sm font-medium text-gray-700"
-              >Guruhingizni tanlang</label
-            >
-            <select
-              v-model="selectedGroup"
-              id="location"
-              name="location"
-              class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
-            >
-              <option
-                v-for="(group, $groupIndex) in groupList"
-                :key="group.name"
-                :value="$groupIndex"
+          <div class="flex items-center mb-1 space-x-2">
+            <div>
+              <label
+                for="semester"
+                class="block text-sm font-medium text-gray-700"
+                >Semestrni tanlang</label
               >
-                {{ group.name }}
-              </option>
-            </select>
+              <select
+                v-model="selectedSemester"
+                @change="semesterChanged($event)"
+                id="semester"
+                name="semester"
+                class="block w-32 py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
+              >
+                <option
+                  v-for="(semester, $semesterIndex) in semesterList"
+                  :key="semester"
+                  :value="$semesterIndex"
+                >
+                  {{ semester }}
+                </option>
+              </select>
+            </div>
+            <div class="w-56 md:flex-1">
+              <label for="group" class="block text-sm font-medium text-gray-700"
+                >Guruhingizni tanlang</label
+              >
+              <select
+                v-model="selectedGroup"
+                id="group"
+                name="group"
+                class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
+              >
+                <option
+                  v-for="(group, $groupIndex) in groupList"
+                  :key="group.name"
+                  :value="$groupIndex"
+                >
+                  {{ group.name }}
+                </option>
+              </select>
+            </div>
           </div>
           <div v-if="selectedGroup !== null" class="flex flex-col">
             <div class="-my-2 sm:-mx-6 lg:-mx-8">
@@ -72,7 +94,7 @@
                     }"
                     class="flex items-center justify-end py-2"
                   >
-                    <div class="text-white tdata">
+                    <div class="mr-4 text-white tdata">
                       Sizning GPA:
                       <span class="ml-2 text-xl font-bold">{{ gpa }}</span>
                     </div>
@@ -98,11 +120,32 @@ export default {
     return {
       totalCredits: {},
       selectedGroup: 0,
+      selectedSemester: 0,
       pointTaken: 0,
-      groupList: dataList,
+      semesterList: [1, 2],
+      groupList: dataList[0],
     };
   },
-
+  watch: {
+    semesterListChange() {
+      if (this.selectedSemester == 0) {
+        this.groupList = dataList[0];
+      } else if (this.selectedSemester == 1) {
+        this.groupList = dataList[1];
+        console.log(this.selectedSemester);
+      }
+    },
+  },
+  methods: {
+    semesterChanged(event) {
+      if (event.target.value == 0) {
+        this.groupList = dataList[0];
+      } else if (event.target.value == 1) {
+        this.groupList = dataList[1];
+        console.log(event.target.value + "asda");
+      }
+    },
+  },
   computed: {
     credit() {
       return Object.values(this.totalCredits).reduce(
@@ -119,7 +162,7 @@ export default {
 
 <style>
 .theader {
-  @apply px-6;
+  @apply px-4;
   @apply py-3;
   @apply text-xs;
   @apply font-medium;
@@ -130,7 +173,7 @@ export default {
 }
 
 .tdata {
-  @apply px-6;
+  @apply pl-4;
   @apply py-4;
   @apply font-medium;
   @apply text-gray-800;

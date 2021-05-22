@@ -1,19 +1,19 @@
 <template>
   <tr>
-    <td class="tdata">
+    <td width="10" class="whitespace-pre-wrap tdata">
       {{ id + 1 }}
     </td>
-    <td class="tdata">
+    <td class="whitespace-pre-wrap tdata">
       {{ value.text }}
     </td>
-    <td class="tdata">
+    <td class="whitespace-pre-wrap tdata">
       {{ value.credit }}
     </td>
-    <td class="tdata">
+    <td class="whitespace-pre-wrap tdata">
       <input
         type="number"
         min="0"
-        class="p-2 border rounded"
+        class="w-16 p-2 border rounded md:mr-4 lg:w-auto"
         placeholder="Баллни киритинг"
         v-model="pointTaken"
       />
