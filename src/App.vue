@@ -2,7 +2,7 @@
   <div class="bg-gray-200">
     <div class="flex flex-col justify-center h-screen md:items-center">
       <div class="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
-        <div class="w-1/3 mx-auto mt-2 lg:mb-6 lg:w-1/4">
+        <div class="w-2/5 mx-auto mt-2 lg:mb-6 lg:w-1/4">
           <img class="" src="./assets/logo.webp" alt="" />
         </div>
         <div
@@ -31,7 +31,7 @@
                 </option>
               </select>
             </div> -->
-            <div class="w-56 md:flex-1">
+            <div class="w-40 md:flex-1">
               <label for="group" class="block text-sm font-medium text-gray-700"
                 >1-Semestr guruhingizni tanlang</label
               >
@@ -50,8 +50,27 @@
                 </option>
               </select>
             </div>
+            <div class="w-40 md:flex-1">
+              <label for="group" class="block text-sm font-medium text-gray-700"
+                >2-Semestr guruhingizni tanlang</label
+              >
+              <select
+                v-model="selectedGroup2"
+                id="group"
+                name="group"
+                class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
+              >
+                <option
+                  v-for="(group, $groupIndex) in groupList2"
+                  :key="group.name"
+                  :value="$groupIndex"
+                >
+                  {{ group.name }}
+                </option>
+              </select>
+            </div>
           </div>
-          <div v-if="selectedGroup1 !== null" class="flex flex-col">
+          <div v-if="selectedGroup1 !== null" class="flex flex-col space-y-1">
             <div class="-my-2 sm:-mx-6 lg:-mx-8">
               <div
                 class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
@@ -62,7 +81,7 @@
                   <table class="min-w-full divide-y divide-gray-200">
                     <thead class="bg-gray-100">
                       <tr>
-                        <th scope="col" class="text-blue-800 theader">#</th>
+                        <!-- <th scope="col" class="text-blue-800 theader">#</th> -->
                         <th scope="col" class="text-blue-800 theader">
                           Fanlar nomi
                         </th>
@@ -85,33 +104,13 @@
                         :totalCredits.sync="totalCredits"
                       />
                     </tbody>
-                    <div class="w-56 md:flex-1 mt-2">
-                      <label
-                        for="group"
-                        class="block text-sm font-medium text-gray-700"
-                        >2-Semestr guruhingizni tanlang</label
-                      >
-                      <select
-                        v-model="selectedGroup2"
-                        id="group"
-                        name="group"
-                        class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
-                      >
-                        <option
-                          v-for="(group, $groupIndex) in groupList2"
-                          :key="group.name"
-                          :value="$groupIndex"
-                        >
-                          {{ group.name }}
-                        </option>
-                      </select>
-                    </div>
+
                     <tbody>
                       <TableRaw2
                         v-for="(group, $subjIndex) in groupList2[selectedGroup2]
                           .subjects"
                         :key="group.name"
-                        class="bg-white"
+                        class="bg-white mt-2"
                         :value="group"
                         :id="$subjIndex"
                         :totalCredits2.sync="totalCredits2"
@@ -204,7 +203,7 @@ export default {
 
 <style>
 .theader {
-  @apply px-4;
+  @apply px-3;
   @apply py-3;
   @apply text-xs;
   @apply font-medium;
@@ -215,7 +214,7 @@ export default {
 }
 
 .tdata {
-  @apply pl-4;
+  @apply pl-3;
   @apply py-4;
   @apply font-medium;
   @apply text-gray-800;

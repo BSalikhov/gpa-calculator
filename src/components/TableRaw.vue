@@ -1,11 +1,9 @@
 <template>
   <tr>
-    <td width="10" class="whitespace-pre-wrap tdata">
+    <!-- <td width="10" class="whitespace-pre-wrap tdata">
       {{ id + 1 }}
-    </td>
-    <td class="whitespace-pre-wrap tdata">
-      {{ value.text }}
-    </td>
+    </td> -->
+    <td class="whitespace-pre-wrap tdata">{{ id + 1 }}. {{ value.text }}</td>
     <td class="whitespace-pre-wrap tdata">
       {{ value.credit }}
     </td>
