@@ -31,7 +31,7 @@
                 </option>
               </select>
             </div> -->
-            <div class="w-40 md:flex-1">
+            <div class="w-80 md:flex-1">
               <label for="group" class="block text-sm font-medium text-gray-700"
                 >1-Semestr guruhingizni tanlang</label
               >
@@ -50,27 +50,8 @@
                 </option>
               </select>
             </div>
-            <div class="w-40 md:flex-1">
-              <label for="group" class="block text-sm font-medium text-gray-700"
-                >2-Semestr guruhingizni tanlang</label
-              >
-              <select
-                v-model="selectedGroup2"
-                id="group"
-                name="group"
-                class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
-              >
-                <option
-                  v-for="(group, $groupIndex) in groupList2"
-                  :key="group.name"
-                  :value="$groupIndex"
-                >
-                  {{ group.name }}
-                </option>
-              </select>
-            </div>
           </div>
-          <div v-if="selectedGroup1 !== null" class="flex flex-col space-y-1">
+          <div v-if="selectedGroup1 !== null" class="flex flex-col">
             <div class="-my-2 sm:-mx-6 lg:-mx-8">
               <div
                 class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
@@ -104,19 +85,59 @@
                         :totalCredits.sync="totalCredits"
                       />
                     </tbody>
-
+                  </table>
+                  <div
+                    class="flex items-center w-full bg-gray-100 justify-end py-2"
+                  >
+                    <div class="mr-4 text-gray-700 tdata">
+                      1-semestrda olingan GPA:
+                      <span class="ml-2 text-xl font-bold text-blue-800">{{
+                        gpa1
+                      }}</span>
+                    </div>
+                  </div>
+                  <div class="w-80 md:flex-1 mt-2">
+                    <label
+                      for="group"
+                      class="block text-sm font-medium text-gray-700"
+                      >2-Semestr guruhingizni tanlang</label
+                    >
+                    <select
+                      v-model="selectedGroup2"
+                      id="group"
+                      name="group"
+                      class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
+                    >
+                      <option
+                        v-for="(group, $groupIndex) in groupList2"
+                        :key="group.name"
+                        :value="$groupIndex"
+                      >
+                        {{ group.name }}
+                      </option>
+                    </select>
+                  </div>
+                  <table class="min-w-full divide-y divide-gray-200">
                     <tbody>
                       <TableRaw2
                         v-for="(group, $subjIndex) in groupList2[selectedGroup2]
                           .subjects"
                         :key="group.name"
-                        class="bg-white mt-2"
+                        class="bg-white"
                         :value="group"
                         :id="$subjIndex"
                         :totalCredits2.sync="totalCredits2"
                       />
                     </tbody>
                   </table>
+                  <div class="flex items-center justify-end py-2 bg-gray-100">
+                    <div class="mr-4 tdata">
+                      2-semestr GPA:
+                      <span class="ml-2 text-xl text-blue-800 font-bold">{{
+                        gpa2
+                      }}</span>
+                    </div>
+                  </div>
                   <div
                     :class="{
                       'bg-green-600': gpa >= 2.7,
@@ -126,7 +147,7 @@
                     class="flex items-center justify-end py-2"
                   >
                     <div class="mr-4 text-white tdata">
-                      Sizning GPA:
+                      Sizning umumiy GPA:
                       <span class="ml-2 text-xl font-bold">{{ gpa }}</span>
                     </div>
                   </div>
@@ -193,6 +214,12 @@ export default {
         (prev, curr) => prev + curr,
         0
       );
+    },
+    gpa1() {
+      return (this.credit1 / 30).toFixed(2);
+    },
+    gpa2() {
+      return (this.credit2 / 30).toFixed(2);
     },
     gpa() {
       return ((this.credit1 + this.credit2) / 60).toFixed(2);

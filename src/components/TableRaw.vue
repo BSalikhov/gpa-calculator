@@ -29,10 +29,11 @@ export default {
   },
   watch: {
     pointTaken(point) {
-      this.$emit("update:totalCredits", {
-        ...this.totalCredits,
-        [this.id]: point * this.value.credit,
-      });
+      if (this.pointTaken > 2)
+        this.$emit("update:totalCredits", {
+          ...this.totalCredits,
+          [this.id]: point * this.value.credit,
+        });
     },
   },
 };
