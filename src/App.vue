@@ -33,25 +33,25 @@
             </div> -->
             <div class="w-80 md:flex-1">
               <label for="group" class="block text-sm font-medium text-gray-700"
-                >1-Semestr guruhingizni tanlang</label
+                >Guruhingizni tanlang</label
               >
               <select
-                v-model="selectedGroup1"
+                v-model="selectedGroupName"
                 id="group"
                 name="group"
                 class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
               >
                 <option
-                  v-for="(group, $groupIndex) in groupList1"
+                  v-for="group in formattedGroups.firstSemester"
                   :key="group.name"
-                  :value="$groupIndex"
+                  :value="group.name"
                 >
                   {{ group.name }}
                 </option>
               </select>
             </div>
           </div>
-          <div v-if="selectedGroup1 !== null" class="flex flex-col">
+          <div v-if="selectedGroupName !== null" class="flex flex-col">
             <div class="-my-2 sm:-mx-6 lg:-mx-8">
               <div
                 class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8"
@@ -76,34 +76,25 @@
                     </thead>
                     <tbody>
                       <TableRaw
-                        v-for="(group, $subjIndex) in groupList1[selectedGroup1]
-                          .subjects"
-                        :key="group.name"
+                        v-for="(group, index) in formattedGroups.firstSemester[
+                          selectedGroupName
+                        ].subjects"
+                        :key="`semester2-${index}`"
                         class="bg-white"
                         :value="group"
-                        :id="$subjIndex"
+                        :id="index"
                         :totalCredits.sync="totalCredits"
                       />
                     </tbody>
                   </table>
-                  <div
-                    class="flex items-center w-full bg-gray-100 justify-end py-2"
-                  >
-                    <div class="mr-4 text-gray-700 tdata">
-                      1-semestrda olingan GPA:
-                      <span class="ml-2 text-xl font-bold text-blue-800">{{
-                        gpa1
-                      }}</span>
-                    </div>
-                  </div>
-                  <div class="w-80 md:flex-1 mt-2">
+                  <!-- <div class="w-80 md:flex-1 mt-2">
                     <label
                       for="group"
                       class="block text-sm font-medium text-gray-700"
                       >2-Semestr guruhingizni tanlang</label
                     >
                     <select
-                      v-model="selectedGroup2"
+                      v-model="selectedGroupName2"
                       id="group"
                       name="group"
                       class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
@@ -116,28 +107,21 @@
                         {{ group.name }}
                       </option>
                     </select>
-                  </div>
-                  <table class="min-w-full divide-y divide-gray-200">
+                  </div> -->
+                  <table class="min-w-full border-t divide-y divide-gray-200">
                     <tbody>
                       <TableRaw2
-                        v-for="(group, $subjIndex) in groupList2[selectedGroup2]
-                          .subjects"
-                        :key="group.name"
+                        v-for="(group, index) in formattedGroups.secondSemester[
+                          selectedGroupName
+                        ].subjects"
+                        :key="`semester2-${index}`"
                         class="bg-white"
                         :value="group"
-                        :id="$subjIndex"
+                        :id="index"
                         :totalCredits2.sync="totalCredits2"
                       />
                     </tbody>
                   </table>
-                  <div class="flex items-center justify-end py-2 bg-gray-100">
-                    <div class="mr-4 tdata">
-                      2-semestr GPA:
-                      <span class="ml-2 text-xl text-blue-800 font-bold">{{
-                        gpa2
-                      }}</span>
-                    </div>
-                  </div>
                   <div
                     :class="{
                       'bg-green-600': gpa >= 2.7,
@@ -173,36 +157,19 @@ export default {
     return {
       totalCredits: {},
       totalCredits2: {},
-      selectedGroup1: 0,
-      selectedGroup2: 0,
+      selectedGroupName: dataList[0][0].name,
       selectedSemester: 0,
       pointTaken: 0,
       semesterList: [1, 2],
-      groupList1: dataList[0],
-      groupList2: dataList[1],
     };
   },
-  // watch: {
-  //   semesterListChange() {
-  //     if (this.selectedSemester == 0) {
-  //       this.groupList = dataList[0];
-  //     } else if (this.selectedSemester == 1) {
-  //       this.groupList = dataList[1];
-  //       console.log(this.selectedSemester);
-  //     }
-  //   },
-  // },
-  // methods: {
-  //   semesterChanged(event) {
-  //     if (event.target.value == 0) {
-  //       this.groupList = dataList[0];
-  //     } else if (event.target.value == 1) {
-  //       this.groupList = dataList[1];
-  //       console.log(event.target.value + "asda");
-  //     }
-  //   },
-  // },
   computed: {
+    formattedGroups() {
+      return {
+        firstSemester: this.arrayToObject(dataList[0], "name"),
+        secondSemester: this.arrayToObject(dataList[1], "name"),
+      };
+    },
     credit1() {
       return Object.values(this.totalCredits).reduce(
         (prev, curr) => prev + curr,
@@ -223,6 +190,11 @@ export default {
     },
     gpa() {
       return ((this.credit1 + this.credit2) / 60).toFixed(2);
+    },
+  },
+  methods: {
+    arrayToObject(arr, key) {
+      return Object.assign({}, ...arr.map((item) => ({ [item[key]]: item })));
     },
   },
 };

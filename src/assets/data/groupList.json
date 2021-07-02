@@ -1145,27 +1145,6 @@
      ]
   },
   {
-     "name":"MTIF-11",
-     "subjects":[
-        {
-           "text":"Xalqaro biznes shartnomalar",
-           "credit":7.5
-        },
-        {
-           "text":"Xalqaro logistika",
-           "credit":7.5
-        },
-        {
-           "text":"Raqamli biznesni boshqarish",
-           "credit":7.5
-        },
-        {
-           "text":"Xalqaro korporativ moliya",
-           "credit":7.5
-        }
-     ]
-  },
-  {
      "name":"MMNP-10",
      "subjects":[
         {
@@ -1608,27 +1587,6 @@
   },
   {
      "name":"MUA-10",
-     "subjects":[
-        {
-           "text":"Ichki audit",
-           "credit":7.5
-        },
-        {
-           "text":"Moliyaviy xavfsizlik",
-           "credit":7.5
-        },
-        {
-           "text":"Audit va ishonchlilik-2",
-           "credit":7.5
-        },
-        {
-           "text":"Zamonaviy boshqaruv xisobi",
-           "credit":7.5
-        }
-     ]
-  },
-  {
-     "name":"MUA-11",
      "subjects":[
         {
            "text":"Ichki audit",

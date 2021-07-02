@@ -3,8 +3,10 @@
     <!-- <td width="10" class="whitespace-pre-wrap tdata">
       {{ id + 1 }}
     </td> -->
-    <td class="whitespace-pre-wrap tdata">{{ id + 1 }}. {{ value.text }}</td>
-    <td class="whitespace-pre-wrap tdata">
+    <td class="whitespace-pre-wrap tdata w-48 lg:w-80">
+      {{ id + 1 }}. {{ value.text }}
+    </td>
+    <td class="whitespace-pre-wrap tdata w-20">
       {{ value.credit }}
     </td>
     <td class="whitespace-pre-wrap tdata">
