@@ -160,7 +160,6 @@ export default {
       selectedGroupName: dataList[0][0].name,
       selectedSemester: 0,
       pointTaken: 0,
-      semesterList: [1, 2],
     };
   },
   computed: {
