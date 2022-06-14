@@ -4,7 +4,7 @@
       {{ id + 1 }}
     </td> -->
     <td class="whitespace-pre-wrap tdata w-48 lg:w-80">
-      {{ id + 1 }}. {{ value.text }}
+      {{ id + 1 }}. {{ value.subject }}
     </td>
     <td class="whitespace-pre-wrap tdata w-20">
       {{ value.credit }}

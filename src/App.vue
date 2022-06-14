@@ -5,32 +5,11 @@
         <div class="w-2/5 mx-auto mt-2 lg:mb-6 lg:w-1/4">
           <img class="" src="./assets/logo.webp" alt="" />
         </div>
+
         <div
           class="inline-block px-2 py-2 mx-auto align-middle min-w-1/3 lg:px-8"
         >
           <div class="flex items-center mb-1 space-x-2">
-            <!-- <div>
-              <label
-                for="semester"
-                class="block text-sm font-medium text-gray-700"
-                >Semestrni tanlang</label
-              >
-              <select
-                v-model="selectedSemester"
-                @change="semesterChanged($event)"
-                id="semester"
-                name="semester"
-                class="block w-32 py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
-              >
-                <option
-                  v-for="(semester, $semesterIndex) in semesterList"
-                  :key="semester"
-                  :value="$semesterIndex"
-                >
-                  {{ semester }}
-                </option>
-              </select>
-            </div> -->
             <div class="w-80 md:flex-1">
               <label for="group" class="block text-sm font-medium text-gray-700"
                 >Guruhingizni tanlang</label
@@ -42,7 +21,7 @@
                 class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
               >
                 <option
-                  v-for="group in formattedGroups.firstSemester"
+                  v-for="group in dataList"
                   :key="group.name"
                   :value="group.name"
                 >
@@ -51,6 +30,7 @@
               </select>
             </div>
           </div>
+
           <div v-if="selectedGroupName !== null" class="flex flex-col">
             <div class="-my-2 sm:-mx-6 lg:-mx-8">
               <div
@@ -74,11 +54,12 @@
                         </th>
                       </tr>
                     </thead>
+
                     <tbody>
                       <TableRaw
-                        v-for="(group, index) in formattedGroups.firstSemester[
+                        v-for="(group, index) in formattedGroups[
                           selectedGroupName
-                        ].subjects"
+                        ].text"
                         :key="`semester2-${index}`"
                         class="bg-white"
                         :value="group"
@@ -87,28 +68,8 @@
                       />
                     </tbody>
                   </table>
-                  <!-- <div class="w-80 md:flex-1 mt-2">
-                    <label
-                      for="group"
-                      class="block text-sm font-medium text-gray-700"
-                      >2-Semestr guruhingizni tanlang</label
-                    >
-                    <select
-                      v-model="selectedGroupName2"
-                      id="group"
-                      name="group"
-                      class="block w-full py-2 pl-3 pr-10 my-1 text-base border border-gray-300 rounded-md focus:outline-none focus:ring-indigo-500 focus:border-blue-800 sm:text-sm"
-                    >
-                      <option
-                        v-for="(group, $groupIndex) in groupList2"
-                        :key="group.name"
-                        :value="$groupIndex"
-                      >
-                        {{ group.name }}
-                      </option>
-                    </select>
-                  </div> -->
-                  <table class="min-w-full border-t divide-y divide-gray-200">
+
+                  <!-- <table class="min-w-full border-t divide-y divide-gray-200">
                     <tbody>
                       <TableRaw2
                         v-for="(group, index) in formattedGroups.secondSemester[
@@ -122,6 +83,7 @@
                       />
                     </tbody>
                   </table>
+                   -->
                   <div
                     :class="{
                       'bg-green-600': gpa >= 2.7,
@@ -149,46 +111,51 @@
 // import Table from "./components/Table.vue";
 import dataList from "./assets/data/groupList.json";
 import TableRaw from "./components/TableRaw.vue";
-import TableRaw2 from "./components/TableRaw2.vue";
+// import TableRaw2 from "./components/TableRaw2.vue";
 export default {
   name: "App",
-  components: { TableRaw, TableRaw2 },
+  components: { TableRaw },
   data() {
     return {
+      dataList,
       totalCredits: {},
-      totalCredits2: {},
-      selectedGroupName: dataList[0][0].name,
+      // totalCredits2: {},
+      selectedGroupName: dataList[0].name,
       selectedSemester: 0,
       pointTaken: 0,
     };
   },
   computed: {
     formattedGroups() {
-      return {
-        firstSemester: this.arrayToObject(dataList[0], "name"),
-        secondSemester: this.arrayToObject(dataList[1], "name"),
-      };
+      return this.arrayToObject(dataList, "name");
     },
+    // formattedGroups() {
+    //   return {
+    //     firstSemester: this.arrayToObject(dataList[0], "name"),
+    //     secondSemester: this.arrayToObject(dataList[1], "name"),
+    //   };
+    // },
     credit1() {
       return Object.values(this.totalCredits).reduce(
         (prev, curr) => prev + curr,
         0
       );
     },
-    credit2() {
-      return Object.values(this.totalCredits2).reduce(
-        (prev, curr) => prev + curr,
-        0
-      );
-    },
+    // credit2() {
+    //   return Object.values(this.totalCredits2).reduce(
+    //     (prev, curr) => prev + curr,
+    //     0
+    //   );
+    // },
     gpa1() {
       return (this.credit1 / 30).toFixed(2);
     },
-    gpa2() {
-      return (this.credit2 / 30).toFixed(2);
-    },
+    // gpa2() {
+    //   return (this.credit2 / 30).toFixed(2);
+    // },
     gpa() {
-      return ((this.credit1 + this.credit2) / 60).toFixed(2);
+      // return ((this.credit1 + this.credit2) / 60).toFixed(2);
+      return (this.credit1 / 60).toFixed(2);
     },
   },
   methods: {
